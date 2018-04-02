@@ -1,0 +1,44 @@
+mat-form-field {
+	width:100%;
+}
+.container {
+	margin-top: 8%;
+}
+
+.myForm {
+	padding-top: 10px;
+	float: left;
+}
+
+div .myTrackContainer {
+	margin-top: 50px;
+}
+
+.mat-toolbar {
+  height:40px;
+  color: #ddd;
+}
+
+.dropdown {
+	padding-top: 10px;
+	float: right;
+    padding-bottom: 10px;	
+}
+
+#mapid { height: 500px; 
+	/* Clear float */
+	clear: both;
+}
+
+#matInput {
+}
+
+#angleCountInput{
+    height: 20px;
+    width: 45px;
+    background-color: slateblue;	
+}
+
+#spanHeader {
+    padding-right: 14px;
+}

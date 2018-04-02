@@ -1,0 +1,45 @@
+<div class="">
+   <div class="myTrackContainer"></div>
+
+
+<!--   <mat-form-field class="myForm">
+    <input matInput id="matInput"
+           placeholder="Type here" 
+           [(ngModel)] = "searchStr"
+           (ngModelChange) = "handleChange()"
+           [minLength] = "minLength"
+    >
+    <mat-hint>Errors appear instantly!</mat-hint>
+    <mat-error *ngIf="!validate">
+      Min length is {{ minLength }}. Now it is {{ searchStr.length }}
+    </mat-error>
+  </mat-form-field> -->
+
+  <mat-toolbar color="primary">  
+    <span id = "spanHeader">Tools</span>
+    <div class="mydivclass1">
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select illustrating map
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Google</a></li>
+          <li><a href="#">Yandex</a></li>
+          <li><a href="#">...</a></li>
+        </ul>
+      </div>  
+    </div>   
+    <button mat-button (click)="zoomIn()">Zoom In</button>
+    <button mat-button (click)="zoomOut()">Zoom Out</button> 
+    <button mat-button (click)="setMarker()">Marker - {{ (!marking) ? "Set" : "Esc" }}</button> 
+    <button mat-button (click)="setTriangle()">Triangle - {{ (!triangling) ? "Set" : "Esc" }}</button> 
+    <button mat-button (click)="setPolygon()">Polygon - {{ (!polygoning) ? "Set" : "Esc" }}</button>
+    <input id = "angleCountInput" type="number" [(ngModel)] = "angleCount" name="angleCount"> 
+
+</mat-toolbar>
+
+
+
+  <div id="mapid" (click)="onMapClick()" ></div>
+
+</div>
+
