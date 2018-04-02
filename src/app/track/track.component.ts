@@ -13,7 +13,7 @@ import { ActivatedRoute } from "@angular/router";
       shadowAnchor: [13, 65]  });
 
   L.Marker.prototype.options.icon = DefaultIcon;
-  //////////////////
+  ////////////////// 
   //////////////////
 
 
