@@ -9,7 +9,7 @@ import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
-import { MatToolbarModule, MatInputModule, MatButtonModule } from '@angular/material';
+import { MatCardModule, MatToolbarModule, MatInputModule, MatButtonModule } from '@angular/material';
 
 
 import { routes } from './app.router';
